@@ -28,7 +28,7 @@
 .travel {
     height: 100%;
     width: 100%;
-    background: #ffffff;
+    background: #e8e8e8;
     padding: 15px 0;
 }
 .travel-wrapper {
@@ -87,6 +87,7 @@
 }
 .wrapper-travel__img img {
     width: 100%;
+    border: 10px solid #ffffff;
 }
 .wrapper-travel__text {
 }
@@ -102,10 +103,16 @@
     flex-direction: column;
 }
 .text-travel__item {
+    width: 73%;
     color: #606c71;
     font-size: 20px;
     text-align: left;
     margin-bottom: 20px;
+}
+@media (max-width: 479.98px) {
+    .text-travel__item {
+        width: 90%;
+    }
 }
 .content-tarvel {
     display: flex;
